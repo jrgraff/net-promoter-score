@@ -4,7 +4,7 @@ import 'express-async-errors'
 
 import createConnection from './database'
 import { router } from './routes'
-import { AppError } from '../errors/AppError'
+import { AppError } from './errors/AppError'
 
 createConnection()
 const app = express()

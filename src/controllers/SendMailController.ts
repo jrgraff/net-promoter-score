@@ -6,7 +6,7 @@ import { UsersRepository } from '../repositories/UsersRepository';
 import { SurveysRepository } from '../repositories/SurveysRepository';
 import { SurveysUsersRepository } from '../repositories/SurveysUsersRepository';
 import SendMailService from '../services/SendMailService';
-import { AppError } from '../../errors/AppError';
+import { AppError } from '../errors/AppError';
 
 class SendMailController {
 
